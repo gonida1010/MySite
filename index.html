@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta nema="author" content="Gon" />
+    <meta nema="description" content="우주에서 가장 뛰어난 AI 개발자" />
+    <link rel="shortcut icon" href="./images/dog_2.ico" type="images/x-icon" />
+    <title>Gon&#39;s Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media_style.css" />
+    <script
+      src="https://kit.fontawesome.com/133260cff9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="./images/dog_1.ico" alt="logo" />
+        <h1 class="header__logo__title"><a href="#">Gon</a></h1>
+      </div>
+      <button
+        class="header__toggle-btn"
+        id="menu-toggle"
+        aria-label="메뉴 열기/닫기"
+      >
+        <i class="fa-solid fa-list"></i>
+      </button>
+      <nav class="header__nav" id="menu-list">
+        <ul class="header__menu">
+          <li><a href="#home" class="header__menu__item active">홈으로</a></li>
+          <li><a href="#about" class="header__menu__item">Gon</a></li>
+          <li><a href="#skills" class="header__menu__item">기술</a></li>
+          <li><a href="#work" class="header__menu__item">포트폴리오</a></li>
+          <li><a href="#license" class="header__menu__item">자격증</a></li>
+          <li><a href="#contact" class="header__menu__item">연락처</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <img class="home__avatar" src="./images/dog_1.jpg" alt="프로필 사진" />
+        <h2 class="home__title">
+          안녕하세요!<br /><strong class="home__title--strong">멍멍이</strong>입니다
+        </h2>
+        <p class="home__description">우주에서 가장 뛰어난 강아지</p>
+        <a class="home__contact" href="#contact">연락처</a>
+      </section>
+      <section id="about" class="section max-container">
+        <h2 class="title">멍멍</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloribus
+          voluptatem temporibus eum itaque voluptate? Aspernatur culpa et,
+          repellat rem laudantium consequuntur sequi autem accusantium illo ut
+          nam, cupiditate ipsum!
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">front-end</p>
+            <p>HTML, CSS, JavaScript, React</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-mobile major__icon"></i>
+            <p class="major__title">mobile</p>
+            <p>React-Native, Android, IOS, Kotlin</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
+            <p>Node.js, FastAPI</p>
+          </li>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img src="./images/chocolate-labrador-5402611.jpg" alt="수영" />
+            <div>
+              <p class="job__name">수영하는 강아지</p>
+              <p class="job__period">2022~2023</p>
+            </div>
+          </li>
+          <li class="job">
+            <img src="./images/dog-3884646.jpg" alt="산책" />
+            <div>
+              <p lass="job__name">숙면하는 강아지</p>
+              <p class="job__period">2016~2021</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">기술</h2>
+          <p class="description">언어 및 도구</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            aperiam sit cum eum ducimus, odio odit id, commodi ratione ab vel
+            fuga? Exercitationem harum enim laboriosam, voluptate cum
+            consectetur ducimus?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Alias facilis inventore laboriosam enim assumenda
+            quis, sed cumque delectus quae. Nesciunt similique officiis cumque
+            corrupti voluptates alias iure praesentium rerum voluptas.
+          </p>
+          <div class="skills">
+            <section class="skills__coding">
+              <h3 class="skills__title">언어</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span><span>100%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 100%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JavaScript</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>React</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Python</span><span>95%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 95%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">도구</h3>
+              <ul>
+                <li>VS Code</li>
+                <li>Colab</li>
+                <li>MySQL Workbench</li>
+                <li>Jupyter notebook</li>
+                <li>Pycharm</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">기타</h3>
+              <ul>
+                <li>Git/GitHub</li>
+                <li>Math</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">포트폴리오</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category" data-filter="all">
+                ALL<span class="category__count">10</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-filter="front-end">
+                Front-end<span class="category__count">3</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-filter="mobile">
+                Mobile<span class="category__count">5</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-filter="back-end">
+                Back-end<span class="category__count">2</span>
+              </button>
+            </li>
+          </ul>
+          <ul class="projects">
+            <li class="project" data-category="front-end">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #1</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="front-end">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #2</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="front-end">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #3</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="mobile">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #4</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="mobile">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #5</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="mobile">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #6</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="mobile">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #7</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="mobile">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #8</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="back-end">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #9</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-category="back-end">
+              <a href="#" target="__blank">
+                <img
+                  src="./images/dog-5519360.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">project #10</h3>
+                  <p>클론코딩 사이트</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="license" class="section max-container">
+        <h2 class="title">자격증</h2>
+        <p class="description">국가 기술 자격증</p>
+        <ul class="licenses">
+          <li class="license">
+            <img
+              class=".license__img"
+              src="./images/자격증이미지.jpg"
+              alt="정보처리기사 자격증"
+            />
+            <div class="license__bubble">
+              <p><a class="license__bubble__name" href="#">산업강아지공단</a></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                officia quas ut! Magnam, esse ducimus quibusdam eveniet
+                consequuntur suscipit. Veritatis, voluptatibus expedita.
+                Voluptates velit quod dicta natus dolorum alias? Nam!
+              </p>
+            </div>
+          </li>
+          <li class="license">
+            <img
+              class="license__img"
+              src="./images/Dog자격증.jpg"
+              alt="강아지 자격증"
+            />
+            <div class="license__bubble">
+              <p><a class="license__bubble__name" href="#">강아지진흥원</a></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                officia quas ut! Magnam, esse ducimus quibusdam eveniet
+                consequuntur suscipit. Veritatis, voluptatibus expedita.
+                Voluptates velit quod dicta natus dolorum alias? Nam!
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <aside>
+        <a class="arrow-up" href="#home" title="위로"
+          ><i class="fa-solid fa-arrow-up"></i
+        ></a>
+      </aside>
+    </main>
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">연락처</h2>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/gonida1010"
+              target="_blank"
+              title="깃허브"
+              ><i class="fa-brands fa-github"></i>GitHub</i
+            ></a>
+          </li>
+          <br />
+          <a class="contact__link"
+            href="https://pak1010pak.tistory.com/"
+            target="_blank"
+            title="tistory"
+            ><i class="fa-solid fa-t"></i>
+            티스토리
+          </a>
+        </ul>
+        <p>&COPY; gonida - 항상 당신을 응원합니다</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuToggle = document.getElementById("menu-toggle");
+        const headerNav = document.getElementById("menu-list");
+        const menuItems = headerNav.querySelectorAll(".header__menu__item");
+
+        // 메뉴를 닫는 함수
+        const closeMenu = () => {
+          if (headerNav.classList.contains("open")) {
+            headerNav.classList.remove("open");
+            document.body.style.overflow = "auto";
+          }
+        };
+
+        const removeActiveClass = () => {
+          menuItems.forEach((item) => {
+            item.classList.remove("active");
+          });
+        };
+
+        // 모바일화면 메뉴창 열기 닫기
+        if (menuToggle && headerNav) {
+          menuToggle.addEventListener("click", () => {
+            headerNav.classList.toggle("open");
+          });
+
+          // 메뉴 항목 클릭 이벤트
+          menuItems.forEach((link) => {
+            link.addEventListener("click", (e) => {
+              closeMenu();
+              removeActiveClass();
+              e.currentTarget.classList.add("active");
+            });
+          });
+
+          // 스크롤 또는 외부 클릭 시 메뉴 닫기
+          document.addEventListener("click", (event) => {
+            const isClickedOutside =
+              !headerNav.contains(event.target) &&
+              !menuToggle.contains(event.target);
+
+            if (headerNav.classList.contains("open") && isClickedOutside) {
+              closeMenu();
+            }
+          });
+
+          window.addEventListener("scroll", () => {
+            if (headerNav.classList.contains("open")) {
+              closeMenu();
+            }
+          });
+
+          // 페이지 로드 시 URL 해시 확인
+          const activeItemOnLoad = document.querySelector(
+            `.header__menu__item[href="${window.location.hash || "#home"}"]`
+          );
+          if (activeItemOnLoad) {
+            removeActiveClass();
+            activeItemOnLoad.classList.add("active");
+          }
+        }
+        // 포트폴리오 이벤트 수정
+        const categories = document.querySelector(".categories");
+        const projects = document.querySelectorAll(".project");
+
+        categories.addEventListener("click", (e) => {
+          const filterButton = e.target.closest(".category");
+          if (!filterButton) return;
+
+          // 버튼 활성화 디자인 처리
+          document
+            .querySelector(".category--selected")
+            ?.classList.remove("category--selected");
+          filterButton.classList.add("category--selected");
+
+          const selectedCategory = filterButton.dataset.filter;
+
+          projects.forEach((project) => {
+            const projectCategory = project.dataset.category;
+            if (
+              selectedCategory === "all" ||
+              selectedCategory === projectCategory
+            ) {
+              project.style.display = "block";
+            } else {
+              project.style.display = "none";
+            }
+          });
+        });
+
+        // 시간 설정 자바스크립트 만들기(header로고 옆에 출력하기)
+        const headerTitle = document.querySelector(".header__logo__title a");
+        const hour = new Date().getHours();
+        let greeting = "환영합니다!";
+
+        if (hour >= 6 && hour < 12) {
+          greeting = "아침☀️";
+        } else if (hour >= 12 && hour < 18) {
+          greeting = "오후⛅";
+        } else if (hour >= 18 || hour < 6) {
+          greeting = "저녁🌙";
+        }
+
+        function getClock() {
+          const date = new Date();
+          const hours = String(date.getHours()).padStart(2, "0");
+          const minutes = String(date.getMinutes()).padStart(2, "0");
+          const seconds = String(date.getSeconds()).padStart(2, "0");
+
+          headerTitle.innerText = `${greeting} ${hours}:${minutes}:${seconds}`;
+        }
+        getClock();
+        setInterval(getClock, 1000);
+      });
+    </script>
+  </body>
+</html>
